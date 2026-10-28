@@ -29,7 +29,7 @@ jobs:
                 run: python -m unittest -v 
 
               - name: Run Calculator
-                run: python -m calculator.py
+                run: python calculator.py
     deploy:
         name: Deployment Demo 
         needs: test
